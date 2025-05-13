@@ -2,7 +2,7 @@
 import javax.swing.*;
 import java.awt.*;
 
-public class PlayFrogger extends JFrame {
+public class Pl`yFrogger extends JFrame {
 
     public static JLabel lab1;
     public static JLabel lab2;
