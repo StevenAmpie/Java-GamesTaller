@@ -1,5 +1,4 @@
 
-import frogger.Cronometro;
 import javax.swing.*;
 import java.awt.*;
 
