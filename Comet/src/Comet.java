@@ -3,7 +3,10 @@ import java.awt.*;
 public class Comet extends Planet
 {
 	public static final double G = .03;
-	public static final double SPEED = .333;
+	public static final double SPEED = .500;
+
+	public static int prueba = 2000;
+
 	double xV;
 	double yV;
 	boolean random = false;
@@ -22,6 +25,12 @@ public class Comet extends Planet
 		x = mag*Math.cos(t);
 		y = mag*Math.sin(t);
 		random = true;
+
+		for(int i =0; i<prueba; i++){
+
+			System.out.printf("Esta es nuestro prueba",i);
+
+		}
 
 	}
 
