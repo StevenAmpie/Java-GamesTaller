@@ -26,6 +26,12 @@ public class Comet extends Planet
 		y = mag*Math.sin(t);
 		random = true;
 
+		for(int i =0; i<prueba; i++){
+
+			System.out.printf("Esta es nuestro prueba",i);
+
+		}
+
 	}
 
 	public void decelerate()
