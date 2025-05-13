@@ -3,7 +3,7 @@ import java.awt.*;
 public class Comet extends Planet
 {
 	public static final double G = .03;
-	public static final double SPEED = .333;
+	public static final double SPEED = .500;
 	double xV;
 	double yV;
 	boolean random = false;
