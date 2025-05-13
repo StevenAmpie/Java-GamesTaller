@@ -4,6 +4,9 @@ public class Comet extends Planet
 {
 	public static final double G = .03;
 	public static final double SPEED = .500;
+
+	public static int prueba = 2000;
+
 	double xV;
 	double yV;
 	boolean random = false;
